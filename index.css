@@ -196,13 +196,13 @@ a button {
 }
 
 .hero-image {
-  width: 95%;
+  width: 75%;
   max-height: 600px;
 }
 
 /*--------------------------------------------------------------*/
 .main-feature {
-  margin-top: 3rem;
+  margin-top: 5rem;
 }
 
 .main-feature-container {
@@ -274,7 +274,7 @@ a button {
 }
 
 .feature-icon {
-  max-width: 100px;
+  max-width: 90%;
   margin-bottom: 1rem;
 }
 
