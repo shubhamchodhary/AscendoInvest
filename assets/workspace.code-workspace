@@ -1,0 +1,11 @@
+{
+  "folders": [
+	{
+		"name": "OpenheartsFund",
+		"path": ".."
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "OpenheartsFund"
+  }
+}

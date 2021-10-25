@@ -274,7 +274,7 @@ a button {
 }
 
 .feature-icon {
-  max-width: 90%;
+  max-width: 60%;
   margin-bottom: 1rem;
 }
 
@@ -424,7 +424,7 @@ a button {
   max-width: 1200px;
   margin-right: auto;
   margin-left: auto;
-  background-color: #e4eaff;
+  background-color: #e9fbff;
   border-radius: 5px;
   padding: 1.5rem;
 }
@@ -450,7 +450,6 @@ a button {
 }
 
 .content-features {
-  margin-top: 1.5rem;
   text-align: start;
 }
 
@@ -469,7 +468,7 @@ form {
 .subscribe {
   padding: 1rem 2rem;
   border: none;
-  background-color: #2b3b88;
+  background-color: #52c3e2;
   color: white;
   border-radius: 5px;
   font-stretch: 100%;
@@ -482,12 +481,27 @@ form {
 #subscribe-success {
   display: none;
 }
+.social-links {
+  max-width: 20px;
+}
 
 /*-------------------------------------------------------------------------------------*/
 
 footer {
   background-color: #f1f6f4;
   margin-top: 5rem;
+}
+
+.required::before {
+  display: inline-block;
+  content: " ";
+  background-image: url("./assets/icons8-approval-90.png");
+  background-size: 28px 28px;
+  height: 28px;
+  width: 28px;
+  vertical-align: middle;
+  margin-right: 5px;
+  margin-left: 0;
 }
 
 .site-info {
